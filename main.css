@@ -1,0 +1,30 @@
+body {
+	background: whitesmoke;
+	width: 100%;
+}
+
+.wrapper {
+	margin: 0 auto;
+}
+
+h2 {
+	width: 100%;
+	text-align: center;
+}
+
+thead {
+	background: #ccc;
+	font-size: 1.1em;
+}
+
+.table tbody tr:nth-child(-n+3) {
+	background: #9ced9d;
+}
+
+.table tbody tr:nth-child(4) {
+	background: #c3f4c3;
+}
+
+.table tbody tr:nth-child(n+18) {
+	background: #e45e5e;
+}
